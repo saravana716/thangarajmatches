@@ -1,0 +1,189 @@
+.history{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 50px 0px;
+}
+.history .mylogo{
+    position: absolute;
+    top: -180px;
+    right: 0;
+}
+.history1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hisimg{
+    width: 80%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    height: 100%;
+    border-radius: 6px;
+}
+.hisimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+
+    object-fit: contain;
+}
+.hiscontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hiscontent h1 span{
+    color: #A03232;
+}
+ .hiscontent p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+ }
+ .hiscontent p span{
+    color: #A03232;
+    font-weight: 800;
+    font-size: 22px;
+ }
+ .hiscontent button{
+    padding: 15px 25px;
+    background-color: #A03232;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 800;
+ }
+ .hiscontent button:hover{
+    background-color: antiquewhite;
+    color: black;
+ }
+.mybox{
+width: 150px;
+height: 150px;
+border-radius: 100%;
+border: 2px solid  white;
+display: flex;
+   position: absolute;
+    top: -40px;
+    left: -20px;
+ }
+
+.mybox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    border-radius: 100%;
+ 
+}
+
+ @media (max-width: 768px) {
+  .history{
+    width:auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px 0px;
+    padding:20px;
+    overflow: hidden;
+
+}
+.history .mylogo{
+    position: absolute;
+    top: -180px;
+    right: 0;
+}
+.history1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction:column;
+}
+.hisimg{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.hisimg img{
+    width:100%;
+    height: 450px;
+    object-fit: contain;
+    
+}
+.hiscontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hiscontent h1{
+    font-size: 22px;
+    text-align: center;
+}
+.hiscontent h1 span{
+    color: #A03232;
+}
+ .hiscontent p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+ }
+ .hiscontent p span{
+    color: #A03232;
+    font-weight: 800;
+    font-size: 20px;
+ }
+ .hiscontent button{
+    padding: 15px 20px;
+    background-color: #A03232;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    transition: 1s;
+ }
+ .hiscontent button:hover{
+    background-color: antiquewhite;
+    color: black;
+ }
+ .mybox{
+width: 150px;
+height: 150px;
+border-radius: 100%;
+border: 2px solid  white;
+display: flex;
+   position: absolute;
+    top: -40px;
+    left: -20px;
+ }
+
+.mybox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    border-radius: 100%;
+ 
+}
+
+ }

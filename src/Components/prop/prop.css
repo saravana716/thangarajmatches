@@ -1,0 +1,84 @@
+.props{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background-color: red;
+}
+.props img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.props1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 150px ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.props1 h1{
+    font-size: 60px;
+    color: #FDF600;
+    margin-top: 20px;
+}
+.props1 h5{
+    font-size: 36px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .props{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.props img{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    object-fit: contain;
+}
+.props1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 20px ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.props1 h1{
+    font-size: 20px;
+    color: #FDF600;
+    margin-top: 20px;
+}
+.props1 h5{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+}

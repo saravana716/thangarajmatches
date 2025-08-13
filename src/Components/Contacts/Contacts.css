@@ -1,0 +1,109 @@
+.con{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../Assets/back12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.con1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.con2 .y{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.con2 .y1{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.con2 .y2{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.con2 h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #FDF600;
+}
+.con2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+@media screen and (max-width:768px){
+    .con{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../Assets/back12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding:20px;
+}
+.con1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;
+    gap: 40px;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.con2 .y{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.con2 .y1{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.con2 .y2{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.con2 h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #FDF600;
+}
+.con2 h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+}

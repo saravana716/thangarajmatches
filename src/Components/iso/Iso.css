@@ -1,0 +1,151 @@
+.iso{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("../../Assets/bg1.png");
+}
+.iso1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.isocontent h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #A03232;
+    margin-bottom: 20px;
+}
+.isocontent p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.isoimg{
+    width:100%;
+    display:flex;
+}
+.isoimg img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    border-radius: 10px;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+.isocontent p span{
+    color: #A03232;
+    font-size: 20px;
+    font-weight: 800;
+}
+.gridbox{
+    width: 100%;
+    height:220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+     background-color: white;
+    box-shadow: 0 4px 12px 0 gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+}
+.gridbox img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.gridbox p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+@media screen and (max-width:768px){
+    .iso{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("../../Assets/bg1.png");
+}
+.isoimg{
+    width:100%;
+    display:flex;
+}
+.isoimg img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.iso1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction:column;
+}
+.isocontent{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.isocontent h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #A03232;
+    line-height:30px;
+    margin-bottom: 20px;
+}
+.isocontent p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;
+    gap: 30px;
+    margin-top: 20px;
+}
+.gridbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width:100%;
+     background-color: white;
+    box-shadow: 0 4px 12px 0 gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+}
+.gridbox p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+}

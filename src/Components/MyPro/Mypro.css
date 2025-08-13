@@ -1,0 +1,156 @@
+.mypro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mypro1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.mypro1 h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.mypro1 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mypro1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-radius: 10px;
+
+}
+
+.mypro1 .swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.mypro {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mypro1 h1 {
+  font-size: 24px;
+  color: #a03232;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mypro1 .mySwiper {
+  width: 100%;
+}
+
+.mypro1 .mySwiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media screen and (max-width:768px){
+    .mypro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    flex-direction: column;
+    gap: 30px;
+    padding:20px;
+}
+
+.mypro1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.mypro1 h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.mypro1 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mypro1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 10px;
+
+}
+
+.mypro1 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.mypro {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mypro1 h1 {
+  font-size: 24px;
+  color: #a03232;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mypro1 .mySwiper {
+  width: 100%;
+}
+
+.mypro1 .mySwiper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+}
