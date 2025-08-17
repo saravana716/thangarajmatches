@@ -22,7 +22,7 @@ const MySwipers = () => {
           nextEl: '.custom-next',
         }}
         modules={[Navigation, Autoplay]}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}a
         className="mySwiper"
       >

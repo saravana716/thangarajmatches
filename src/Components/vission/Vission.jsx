@@ -1,7 +1,7 @@
 import React from "react";
 import lo from "../../Assets/loi.png";
-import lo1 from "../../Assets/DSC03965.JPG";
-import lo2 from "../../Assets/DSC04009.JPG";
+import lo1 from "../../Assets/banner.JPG";
+import lo2 from "../../Assets/g14.jpg";
 import "./Vission.css"
 const Vission = () => {
   return (
@@ -52,10 +52,9 @@ const Vission = () => {
           <div className="cut2">
             <h3>Our Infrastructure</h3>
             <p>
-              Our manufacturing facilities are equipped with cutting-edge
-              technology. From raw material processing to packaging, every step
-              of the production process is monitored to ensure
-              consistency and quality.
+           At Thangaraj Matches, we have modern manufacturing facilities with the latest machines and technology. From preparing raw materials to packaging, every step is carefully managed to maintain quality and consistency.
+Our strong infrastructure helps us produce safe, reliable, and high-quality matches that meet customer needs every time.
+
             </p>
           </div>
           <img src={lo1} alt="" />
@@ -65,10 +64,8 @@ const Vission = () => {
           <div className="cut2">
             <h3>Our Team</h3>
             <p>
-              Our manufacturing facilities are equipped with cutting-edge
-              technology. From raw material processing to packaging, every step
-              of the production process is monitored to ensure
-              consistency and quality.
+              
+At Thangaraj Matches, our dedicated team works with care and skill to ensure every match is made with quality and safety in mind. Their hard work and teamwork help us deliver the best to our customers.
             </p>
           </div>
         

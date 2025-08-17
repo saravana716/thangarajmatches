@@ -64,6 +64,7 @@
     transition: 1s;
     font-size: 20px;
     font-weight: 800;
+    margin-top:10px;
  }
  .hiscontent button:hover{
     background-color: antiquewhite;

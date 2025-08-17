@@ -28,7 +28,7 @@ const Abouts = () => {
       </div>
         <div className='npbox2'>
         <h1>1</h1>
-        <h5>Million Mathces PerDay Production</h5>
+        <h5>Million Match Per Day Production</h5>
       </div>
     </div>
     {/* <button>VIEW MORE ...</button> */}

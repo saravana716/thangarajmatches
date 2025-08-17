@@ -11,35 +11,35 @@ const Choose = () => {
       <div className="choose1">
         <h1>Why Choose Thangaraj Match for Reliable Safety Matches?</h1>
         <p>
-          We have a responsive management team, Our Products are available in
-          various size and designed in a very innovative and smart style.
+       We make reliable safety matches in different sizes, with modern and smart designs.
+
+
         </p>
         <div className="box">
           <div className="box1">
             <img src={im1} alt="" />
-            <h3>Superior Quality Manufacturing
+            <h3>High Quality
 </h3>
             <p>
-      At Thangaraj Match Works, we use premium raw materials and proven production techniques to manufacture high-grade safety matches. Our commitment to quality ensures every matchstick meets strict industry standards for safety and performance.
-
-            </p>
+      We use the best materials and follow strict standards to make safe, high-grade matches.
+       </p>
           </div>
           <div className="box1">
             <img src={im2} alt="" />
-            <h3>Reliable Customer Assistance
+            <h3>Friendly Support
 </h3>
             <p>
-            Our customer support system is designed to offer timely, efficient service. Whether you're a local distributor or an international client, we’re committed to providing prompt responses and dedicated support at every step.
+            Our team responds quickly and helps you every step of the way, whether you are local or international.
 
             </p>
           </div>
           <div className="box1">
             <img src={im3} alt="" />
-            <h3>Proven Export Legacy
+            <h3>
+Trusted for Years 
 </h3>
             <p>
-            With decades of expertise, Thangaraj Match Works has earned a strong reputation in both domestic and global markets. Our wide-reaching export network ensures timely delivery and unmatched quality for customers worldwide.
-            </p>
+           With decades of experience, we deliver on time and maintain top quality for customers worldwide.   </p>
           </div>
         </div>
       </div>
