@@ -6,9 +6,9 @@ import 'swiper/css';
 
 import './Mypro.css';
 
-import img1 from '../../Assets/mockup.jpg';
-import img2 from '../../Assets/mockup2.jpg';
-import img3 from '../../Assets/mockup3.jpg';
+import img1 from '../../Assets/mockup 2.jpg';
+import img2 from '../../Assets/mockup 1.jpg';
+import img3 from '../../Assets/mockup 3.jpg';
 import img4 from '../../Assets/g20.jpg';
 import img5 from '../../Assets/g15.jpg';
 import img6 from '../../Assets/g16.jpg';

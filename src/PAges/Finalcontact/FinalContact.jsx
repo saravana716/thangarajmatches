@@ -5,13 +5,13 @@ import Footer from "../../Components/Footer/Footer";
 import Props from "../../Components/prop/Props";
 import "./Finalcontact.css";
 import logo from "../../Assets/kl.png";
-import ph3 from "../../Assets/7.jpg"
+import ph3 from "../../Assets/7.jpg";
 
 const FinalContact = () => {
   return (
     <>
       <Navbar />
-      <Props img={ph3}/>
+      <Props img={ph3} />
 
       <div className="message">
         <div className="message1">
@@ -51,13 +51,10 @@ const FinalContact = () => {
         </div>
       </div>
       <div className="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.3670090936885!2d77.80328547477951!3d9.476771381819706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06ce44e64eb1c7%3A0xa3d3f507cf20d8ef!2sThangavel%20Match%20Industries!5e0!3m2!1sen!2sin!4v1750268593174!5m2!1sen!2sin"
-         
-          allowfullscreen=""
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.125191994988!2d77.90174467449994!3d9.143164287192496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06adb6a3c50363%3A0xd1c3fcb94c63481!2sTHANGARAJ%20MATCH%20FACTORY!5e0!3m2!1sen!2sin!4v1755438065367!5m2!1sen!2sin"   allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
       </div>
       <Contacts />
       <Footer />

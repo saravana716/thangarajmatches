@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Brand.css"
-import lo from "../../Assets/mockup.jpg"
-import lo1 from "../../Assets/mockup2.jpg"
-import lo2 from "../../Assets/mockup3.jpg"
+import lo from "../../Assets/mockup 2.jpg"
+import lo1 from "../../Assets/mockup 1.jpg"
+import lo2 from "../../Assets/mockup 3.jpg"
 const Brand = () => {
   return (
     <div className='brand'>

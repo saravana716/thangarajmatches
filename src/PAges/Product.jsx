@@ -5,8 +5,8 @@ import Props from '../Components/prop/Props'
 import Choose from '../Components/Choose/Choose'
 import Contacts from '../Components/Contacts/Contacts'
 import Brand from '../Components/Product/Brand'
-import table from "../Assets/table.png"
-import ww from "../Assets/ww.png"
+import table from "../Assets/ty.jpg"
+import ww from "../Assets/op1.jpg"
 import l1 from "../Assets/3.jpg"
 const Product = () => {
   return (

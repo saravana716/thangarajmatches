@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "./Gridbox.css";
 
 import logo from "../../Assets/DSC04004.JPG";
-import logo1 from "../../Assets/DSC04009.JPG";
+import logo1 from "../../Assets/uu1.jpg";
 import logo2 from "../../Assets/g11.jpg";
 import logo3 from "../../Assets/g12.jpg";
 import logo4 from "../../Assets/DSC04027.JPG";

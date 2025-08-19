@@ -45,7 +45,7 @@ a{
 .pack1{
   width: 80%;
   display: flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content: space-between;
   gap: 50px;
 }
@@ -300,6 +300,11 @@ justify-content: flex-end;
   width: 60px;
   height:60px;
   cursor: pointer;
+}
+.pack1 img{
+   width:500px;
+  height:500px;
+  object-fit:cover;
 }
 @media screen and (max-width:768px){
   .table{
