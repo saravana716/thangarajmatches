@@ -1,5 +1,4 @@
 import React from 'react'
-import v1 from "../Assets/thangaraj.mp4"
 
 const Videos = () => {
   return (

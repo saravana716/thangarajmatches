@@ -1,5 +1,5 @@
 import React from "react";
-import pk from "../../Assets/experience.jpg"
+import pk from "../../Assets/ex.jpg"
 import pk1 from "../../Assets/iso1.png"
 import pk2 from "../../Assets/iso2.png"
 import pk3 from "../../Assets/iso3.png"

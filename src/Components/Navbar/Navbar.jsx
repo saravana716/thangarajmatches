@@ -44,7 +44,7 @@ const Navbar = () => {
               <li>FACTORY PROCESS</li>
             </Link>
             <Link to="/certificate">
-              <li>CERTIFICATE</li>
+              <li>CERTIFICATES</li>
             </Link>
              <Link to="/gallery">
               <li>GALLERY</li>
