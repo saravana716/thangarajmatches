@@ -17,10 +17,10 @@ const History = () => {
         </div>
         <div className='hiscontent'>
             <h1><span>THANGARAJ </span>MATCH FACTORY</h1>
-            <p><span>Since 1979</span>, We have been manufacturing and distributing safety matches in the Indian market, 
+            <p><span>Since 1979</span>, we have been manufacturing and distributing safety matches in the Indian market, 
 making us the industry's innovators. Our facility is based in <span>KOVILPATTI</span>, Tamilnadu,</p>
-<p><span>Thangaraj Match Factory</span> is one the leading matchbox Companies in India that has focused on 
-offering the greatest safety match products possible to customers all over the world. 
+<p><span>Thangaraj Match Factory</span> is one of the leading matchbox companies in India that has focused on 
+offering the greatest safety match products to customers all over the world. 
 We have a broad background in the safety match sector and are imparting that expertise through 
 our products to global markets.</p>
 <p>With our expertise in logistics, we select the quickest route at the most reasonable price to provide 

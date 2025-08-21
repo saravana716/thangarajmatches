@@ -21,7 +21,8 @@ const Choose = () => {
             <h3>High Quality
 </h3>
             <p>
-      We use the best materials and follow strict standards to make safe, high-grade matches.
+  Made with the best materials and strict standards for safe and reliable matches.
+
        </p>
           </div>
           <div className="box1">
@@ -29,7 +30,7 @@ const Choose = () => {
             <h3>Friendly Support
 </h3>
             <p>
-            Our team responds quickly and helps you every step of the way, whether you are local or international.
+      Quick and helpful service for both local and international customers.
 
             </p>
           </div>
@@ -39,7 +40,8 @@ const Choose = () => {
 Trusted for Years 
 </h3>
             <p>
-           With decades of experience, we deliver on time and maintain top quality for customers worldwide.   </p>
+          With long experience, we deliver on time and keep our quality always high.
+   </p>
           </div>
         </div>
       </div>
