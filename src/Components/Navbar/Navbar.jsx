@@ -29,7 +29,8 @@ const Navbar = () => {
       </div>
       <div className="nav">
         <div className="nav1">
-          <img src={logo} alt="" />
+<Link to="/">
+          <img src={logo} alt="" /></Link>
           <ul className={close? "list1":"list"}>
             <Link to="/">
               <li>HOME</li>
